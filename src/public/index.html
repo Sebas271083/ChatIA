@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/main.js" defer></script>
+    <link rel="icon" type="image/pg" href="./assets/img/iconoTranslate.png">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Chat de Negocios</title>
+</head>
+<body>
+     <header class="chat__header">
+        <img class="header__icon" src="./assets/img/iconoSuper.png" alt="">
+        <h1 class="header__title">Chat del Supermercado ArgenChino</h1>
+     </header>
+
+     <section class="chat">
+        <div class="chat_messages">
+            <!-- Cargar los mensajes -->
+        </div>
+        <div class="chat__input-group">
+            <input type="text" id="nombre" placeholder="Nombre" class="chat__input input__nombre">
+            <input type="text" id="apellido" placeholder="Apellido" class="chat__input input__apellido">    
+        </div>
+        <div class="chat__input-group">
+            <input type="text" id="inputText" class="chat__input" placeholder="¿En que te puedo ayudar?">
+            <button class="chat__button" id="sendButton">Enviar</button>
+        </div>
+     </section>
+    
+</body>
+</html>
